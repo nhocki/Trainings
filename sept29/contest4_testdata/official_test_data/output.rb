@@ -1,4 +1,4 @@
-name = "datum"
+name = "periodni"
 files = Dir["**/#{name}/#{name}.in.*"];
 p "Merging #{files.size} files"
 input = File.open("#{name}/input.in", "w+") do |f|
